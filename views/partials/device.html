@@ -1,0 +1,19 @@
+<h3>{{header_factory}}</h3>
+<div class="device">
+        
+     <a href="#/list"><p><i class="glyphicon glyphicon-eject"></i></p></a>
+
+
+        <ul class="grey">
+          <li>Name: {{devices[whichItem].name}}</li>
+          <li>User: {{devices[whichItem].user_name}}</li>
+          <li>Color: {{devices[whichItem].color}}</li>
+        </ul>
+
+
+        <div class="pagination">
+          <a class="left" href="#/device/{{prevItem}}"><p><i class="glyphicon glyphicon-arrow-left"></i></p></a>
+          <a class="right" href="#/device/{{nextItem}}"><p><i class="glyphicon glyphicon-arrow-right"></i></p></a>
+        </div>
+
+</div>

@@ -1,0 +1,26 @@
+<h3>{{header_factory}}</h3>
+
+ <p><a ui-sref="new"><i class="glyphicon glyphicon-plus"></i></a></p>
+
+  <table class="table-striped table-responsive devicelists" width="100%">
+
+    <tr>
+      <th>Device</th>
+
+      <th><i class="glyphicon glyphicon-folder-open"></i></th>
+      <th><i class="glyphicon glyphicon-edit"></i></th>
+      <th><i class="glyphicon glyphicon-minus"></i></th>
+    <tr>
+    <tr class=" device cf" ng-repeat="item in devices">
+      <td>{{item.name}}</td>
+      <td><a ui-sref="device({itemId: '{{item.itemId}}'})"><i class="glyphicon glyphicon-folder-open"></i></a></td>
+      <td><a ui-sref="edit({itemId: '{{item.itemId}}'})"><i class="glyphicon glyphicon-edit"></i></a></td>
+      <td><a ui-sref="delete({itemId: '{{item.itemId}}'})"><i class="glyphicon glyphicon-minus"></i></a></i></td>
+
+    </tr>
+
+  </table>
+
+ <p><i class="glyphicon glyphicon-eject hidden"></i></p>
+ <p><i class="glyphicon glyphicon-arrow-left hidden"></i></p>
+ <p><i class="glyphicon glyphicon-arrow-right hidden"></i></p>

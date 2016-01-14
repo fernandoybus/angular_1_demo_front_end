@@ -1,0 +1,23 @@
+[
+	{
+	"itemId": "0",
+	"name": "device1",
+	"user_name": "fernando",
+	"color": "#ff00ff"
+
+	},
+	{
+	"itemId": "1",
+	"name": "device2",
+	"user_name": "fernando",
+	"color": "#ff0000"
+
+	},
+	{
+	"itemId": "2",
+	"name": "device3",
+	"user_name": "fernandoybus",
+	"color": "#00ff00"
+
+	}	
+]

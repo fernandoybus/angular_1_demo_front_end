@@ -1,0 +1,98 @@
+th {
+
+	font-size:30px;
+}
+td {
+
+	min-height:30px;
+	font-size:32px;
+	padding: 10px 10px;
+
+}
+
+.glyphicon{}
+    padding: 0 10px;
+
+}
+.glyphicon-minus{
+	color: red;
+}
+
+td, th {
+    padding: 10px;
+}
+
+.glyphicon-folder-open{
+
+	color: green;
+}
+
+th .glyphicon-edit, th .glyphicon-folder-open, th .glyphicon-minus{
+
+	color: gray;
+
+}
+
+.glyphicon-edit, .glyphicon-eject{
+
+	color: orange;	
+}
+
+.glyphicon-plus, .glyphicon-eject{
+
+ font-size:40px;
+
+}
+
+.device {
+
+	font-size:30px;
+}
+
+.pagination{
+
+	width:100%;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.grey{
+
+	padding:20px;
+	background-color: #eee;
+}
+
+li{
+	    margin-left: 20px;
+	    list-style: none;
+}
+
+.color{
+    height: 100px !important;
+    width: 20% !important;
+    min-width: 130px !important;
+ }
+
+
+
+@media (min-width:482px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
+
+@media (max-width: 481px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
+}
